@@ -44,10 +44,12 @@ model.add(Dense(10, activation='softmax'))
 
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
+time.ctime()
 a = time.process_time()
 model.fit(x_train, y_train, batch_size=32, epochs=10)
 runtime = (time.process_time() - a)
 print(int(runtime), "seconds")
+time.ctime()
 
 score = model.evaluate(x_test, y_test, batch_size=32)
 print ("Loss = " + str(score[0]))
