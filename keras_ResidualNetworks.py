@@ -1,21 +1,5 @@
-import numpy as np
-from keras import layers
-from keras.layers import Input, Add, Dense, Activation, ZeroPadding2D, BatchNormalization, Flatten, Conv2D, AveragePooling2D, MaxPooling2D, GlobalMaxPooling2D
-from keras.models import Model, load_model
-from keras.preprocessing import image
-from keras.utils import layer_utils
-from keras.utils.data_utils import get_file
-from keras.applications.imagenet_utils import preprocess_input
-import pydot
-#from IPython.display import SVG
-from keras.utils.vis_utils import model_to_dot
-from keras.utils import plot_model
+import time
 from resnets_utils import *
-from keras.initializers import glorot_uniform
-import scipy.misc
-
-from convolutional_block import *
-from identity_block import *
 from ResNet50 import *
 
 model = ResNet50(input_shape = (64, 64, 3), classes = 6)
@@ -39,18 +23,17 @@ print ("Y_train shape: " + str(Y_train.shape))
 print ("X_test shape: " + str(X_test.shape))
 print ("Y_test shape: " + str(Y_test.shape))
 
-model.fit(X_train, Y_train, epochs = 2, batch_size = 32)
+print(time.ctime())
+a = time.process_time()
+model.fit(X_train, Y_train, epochs = 2, batch_size = 32, verbose=2)
+runtime = (time.process_time() - a)
+print(int(runtime), "seconds")
+print(time.ctime())
 
 preds = model.evaluate(X_test, Y_test)
 print ("Loss = " + str(preds[0]))
 print ("Test Accuracy = " + str(preds[1]))
 print ('')
-
-model = load_model('ResNet50.h5')
-
-preds = model.evaluate(X_test, Y_test)
-print ("Loss = " + str(preds[0]))
-print ("Test Accuracy = " + str(preds[1]))
 
 
 
