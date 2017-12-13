@@ -1,0 +1,208 @@
+Using TensorFlow backend.
+2017-12-13 16:34:03.530096: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-13 16:34:03.530233: W C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-12-13 16:34:04.120464: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:955] Found device 0 with properties:
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 3d51:00:00.0
+Total memory: 11.18GiB
+Free memory: 11.00GiB
+2017-12-13 16:34:04.120584: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:976] DMA: 0
+2017-12-13 16:34:04.122192: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:986] 0:   Y
+2017-12-13 16:34:04.122700: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\common_runtime\gpu\gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 3d51:00:00.0)
+number of training examples = 1080
+number of test examples = 120
+X_train shape: (1080, 64, 64, 3)
+Y_train shape: (1080, 6)
+X_test shape: (120, 64, 64, 3)
+Y_test shape: (120, 6)
+
+120/120 [==============================] - 1s
+Loss = 13.4205441793
+Test Accuracy = 0.166666667163
+
+Wed Dec 13 16:34:39 2017
+Epoch 1/90
+8s - loss: 0.0830 - acc: 0.9750
+Epoch 2/90
+6s - loss: 0.0580 - acc: 0.9778
+Epoch 3/90
+6s - loss: 0.0339 - acc: 0.9861
+Epoch 4/90
+6s - loss: 0.0330 - acc: 0.9880
+Epoch 5/90
+6s - loss: 0.0196 - acc: 0.9944
+Epoch 6/90
+6s - loss: 0.0572 - acc: 0.9833
+Epoch 7/90
+6s - loss: 0.1000 - acc: 0.9667
+Epoch 8/90
+6s - loss: 0.3156 - acc: 0.9250
+Epoch 9/90
+6s - loss: 0.0778 - acc: 0.9722
+Epoch 10/90
+6s - loss: 0.0447 - acc: 0.9870
+Epoch 11/90
+6s - loss: 0.0330 - acc: 0.9907
+Epoch 12/90
+6s - loss: 0.0376 - acc: 0.9889
+Epoch 13/90
+6s - loss: 0.0443 - acc: 0.9852
+Epoch 14/90
+6s - loss: 0.0320 - acc: 0.9963
+Epoch 15/90
+6s - loss: 0.0860 - acc: 0.9759
+Epoch 16/90
+6s - loss: 0.1337 - acc: 0.9713
+Epoch 17/90
+6s - loss: 0.0262 - acc: 0.9926
+Epoch 18/90
+6s - loss: 0.0020 - acc: 1.0000
+Epoch 19/90
+6s - loss: 0.0044 - acc: 0.9972
+Epoch 20/90
+6s - loss: 0.0159 - acc: 0.9944
+Epoch 21/90
+6s - loss: 0.0187 - acc: 0.9944
+Epoch 22/90
+6s - loss: 0.0161 - acc: 0.9972
+Epoch 23/90
+6s - loss: 0.0124 - acc: 0.9954
+Epoch 24/90
+6s - loss: 0.0065 - acc: 0.9981
+Epoch 25/90
+6s - loss: 0.0028 - acc: 1.0000
+Epoch 26/90
+6s - loss: 3.8858e-04 - acc: 1.0000
+Epoch 27/90
+6s - loss: 6.8676e-04 - acc: 1.0000
+Epoch 28/90
+6s - loss: 0.0011 - acc: 0.9991
+Epoch 29/90
+6s - loss: 3.9076e-04 - acc: 1.0000
+Epoch 30/90
+6s - loss: 2.2091e-04 - acc: 1.0000
+Epoch 31/90
+6s - loss: 2.5905e-04 - acc: 1.0000
+Epoch 32/90
+6s - loss: 4.1486e-04 - acc: 1.0000
+Epoch 33/90
+6s - loss: 4.8738e-05 - acc: 1.0000
+Epoch 34/90
+6s - loss: 1.3518e-04 - acc: 1.0000
+Epoch 35/90
+6s - loss: 1.0626e-04 - acc: 1.0000
+Epoch 36/90
+6s - loss: 0.0046 - acc: 0.9991
+Epoch 37/90
+6s - loss: 0.0153 - acc: 0.9954
+Epoch 38/90
+6s - loss: 0.0739 - acc: 0.9796
+Epoch 39/90
+6s - loss: 0.3971 - acc: 0.8991
+Epoch 40/90
+6s - loss: 0.1990 - acc: 0.9454
+Epoch 41/90
+6s - loss: 0.0654 - acc: 0.9815
+Epoch 42/90
+6s - loss: 0.0429 - acc: 0.9907
+Epoch 43/90
+6s - loss: 0.0130 - acc: 0.9954
+Epoch 44/90
+6s - loss: 0.0066 - acc: 0.9972
+Epoch 45/90
+6s - loss: 0.0011 - acc: 1.0000
+Epoch 46/90
+6s - loss: 9.8769e-04 - acc: 1.0000
+Epoch 47/90
+6s - loss: 5.2155e-04 - acc: 1.0000
+Epoch 48/90
+6s - loss: 3.0716e-04 - acc: 1.0000
+Epoch 49/90
+6s - loss: 1.6682e-04 - acc: 1.0000
+Epoch 50/90
+6s - loss: 1.4388e-04 - acc: 1.0000
+Epoch 51/90
+6s - loss: 4.9114e-04 - acc: 1.0000
+Epoch 52/90
+6s - loss: 0.0092 - acc: 0.9972
+Epoch 53/90
+6s - loss: 0.0021 - acc: 1.0000
+Epoch 54/90
+6s - loss: 0.0011 - acc: 1.0000
+Epoch 55/90
+6s - loss: 0.0075 - acc: 0.9954
+Epoch 56/90
+6s - loss: 0.0528 - acc: 0.9843
+Epoch 57/90
+6s - loss: 0.0803 - acc: 0.9769
+Epoch 58/90
+6s - loss: 0.0297 - acc: 0.9926
+Epoch 59/90
+6s - loss: 0.0833 - acc: 0.9833
+Epoch 60/90
+6s - loss: 0.8502 - acc: 0.8148
+Epoch 61/90
+6s - loss: 0.3988 - acc: 0.8870
+Epoch 62/90
+6s - loss: 0.1529 - acc: 0.9509
+Epoch 63/90
+6s - loss: 0.3759 - acc: 0.9065
+Epoch 64/90
+6s - loss: 0.3279 - acc: 0.9102
+Epoch 65/90
+6s - loss: 0.1538 - acc: 0.9657
+Epoch 66/90
+6s - loss: 0.1069 - acc: 0.9750
+Epoch 67/90
+6s - loss: 0.0791 - acc: 0.9852
+Epoch 68/90
+6s - loss: 0.0321 - acc: 0.9870
+Epoch 69/90
+6s - loss: 0.0081 - acc: 0.9991
+Epoch 70/90
+6s - loss: 0.0067 - acc: 0.9981
+Epoch 71/90
+6s - loss: 0.0110 - acc: 0.9972
+Epoch 72/90
+6s - loss: 0.2110 - acc: 0.9481
+Epoch 73/90
+6s - loss: 0.1842 - acc: 0.9463
+Epoch 74/90
+6s - loss: 0.0347 - acc: 0.9880
+Epoch 75/90
+6s - loss: 0.0149 - acc: 0.9963
+Epoch 76/90
+6s - loss: 0.0108 - acc: 0.9972
+Epoch 77/90
+6s - loss: 0.0025 - acc: 1.0000
+Epoch 78/90
+6s - loss: 0.0019 - acc: 1.0000
+Epoch 79/90
+6s - loss: 9.0255e-04 - acc: 1.0000
+Epoch 80/90
+6s - loss: 9.2403e-04 - acc: 1.0000
+Epoch 81/90
+6s - loss: 8.9227e-04 - acc: 1.0000
+Epoch 82/90
+6s - loss: 0.0397 - acc: 0.9963
+Epoch 83/90
+6s - loss: 0.0066 - acc: 0.9981
+Epoch 84/90
+6s - loss: 0.0157 - acc: 0.9991
+Epoch 85/90
+6s - loss: 0.1106 - acc: 0.9759
+Epoch 86/90
+6s - loss: 0.3445 - acc: 0.9000
+Epoch 87/90
+6s - loss: 0.1050 - acc: 0.9602
+Epoch 88/90
+6s - loss: 0.6616 - acc: 0.8444
+Epoch 89/90
+6s - loss: 0.5672 - acc: 0.8537
+Epoch 90/90
+6s - loss: 0.2794 - acc: 0.9259
+678 seconds
+Wed Dec 13 16:44:28 2017
+ 96/120 [=======================>......] - ETA: 0sLoss = 13.4317466736
+Test Accuracy = 0.166666667163
