@@ -1,0 +1,215 @@
+2017-11-30 20:46:18.171912: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-30 20:46:18.445132: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 3249:00:00.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2017-11-30 20:46:18.445190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 3249:00:00.0, compute capability: 3.7)
+2017-11-30 20:46:21.390310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 3249:00:00.0, compute capability: 3.7)
+number of training examples = 1080
+number of test examples = 120
+X_train shape: (1080, 64, 64, 3)
+Y_train shape: (1080, 6)
+X_test shape: (120, 64, 64, 3)
+Y_test shape: (120, 6)
+
+
+ 32/120 [=======>......................] - ETA: 3s
+ 64/120 [===============>..............] - ETA: 1s
+ 96/120 [=======================>......] - ETA: 0s
+120/120 [==============================] - 2s 14ms/step
+Loss = 5.32100038528
+Test Accuracy = 0.216666666667
+
+Thu Nov 30 20:46:39 2017
+Epoch 1/90
+ - 13s - loss: 0.0241 - acc: 0.9935
+Epoch 2/90
+ - 11s - loss: 0.0677 - acc: 0.9731
+Epoch 3/90
+ - 12s - loss: 0.0806 - acc: 0.9787
+Epoch 4/90
+ - 12s - loss: 0.0388 - acc: 0.9833
+Epoch 5/90
+ - 12s - loss: 0.0439 - acc: 0.9824
+Epoch 6/90
+ - 12s - loss: 0.0590 - acc: 0.9759
+Epoch 7/90
+ - 12s - loss: 0.0896 - acc: 0.9750
+Epoch 8/90
+ - 12s - loss: 0.1639 - acc: 0.9380
+Epoch 9/90
+ - 12s - loss: 0.0743 - acc: 0.9796
+Epoch 10/90
+ - 12s - loss: 0.0281 - acc: 0.9889
+Epoch 11/90
+ - 12s - loss: 0.0648 - acc: 0.9769
+Epoch 12/90
+ - 11s - loss: 0.0810 - acc: 0.9759
+Epoch 13/90
+ - 12s - loss: 0.0633 - acc: 0.9741
+Epoch 14/90
+ - 12s - loss: 0.0162 - acc: 0.9944
+Epoch 15/90
+ - 12s - loss: 0.3714 - acc: 0.9509
+Epoch 16/90
+ - 12s - loss: 1.9360 - acc: 0.6259
+Epoch 17/90
+ - 12s - loss: 2.4649 - acc: 0.4074
+Epoch 18/90
+ - 12s - loss: 1.8389 - acc: 0.4815
+Epoch 19/90
+ - 12s - loss: 0.9363 - acc: 0.6574
+Epoch 20/90
+ - 12s - loss: 0.6401 - acc: 0.7667
+Epoch 21/90
+ - 12s - loss: 0.3989 - acc: 0.8694
+Epoch 22/90
+ - 12s - loss: 0.2467 - acc: 0.9157
+Epoch 23/90
+ - 12s - loss: 0.1396 - acc: 0.9565
+Epoch 24/90
+ - 12s - loss: 0.1103 - acc: 0.9630
+Epoch 25/90
+ - 12s - loss: 0.0807 - acc: 0.9722
+Epoch 26/90
+ - 12s - loss: 0.5490 - acc: 0.8500
+Epoch 27/90
+ - 12s - loss: 0.3513 - acc: 0.8648
+Epoch 28/90
+ - 12s - loss: 0.1682 - acc: 0.9352
+Epoch 29/90
+ - 12s - loss: 0.1039 - acc: 0.9657
+Epoch 30/90
+ - 12s - loss: 0.0811 - acc: 0.9731
+Epoch 31/90
+ - 12s - loss: 0.0480 - acc: 0.9806
+Epoch 32/90
+ - 12s - loss: 0.0527 - acc: 0.9824
+Epoch 33/90
+ - 12s - loss: 0.0533 - acc: 0.9833
+Epoch 34/90
+ - 12s - loss: 0.0333 - acc: 0.9880
+Epoch 35/90
+ - 12s - loss: 0.0449 - acc: 0.9852
+Epoch 36/90
+ - 12s - loss: 0.0485 - acc: 0.9852
+Epoch 37/90
+ - 12s - loss: 0.0365 - acc: 0.9880
+Epoch 38/90
+ - 12s - loss: 0.0217 - acc: 0.9935
+Epoch 39/90
+ - 12s - loss: 0.0202 - acc: 0.9917
+Epoch 40/90
+ - 12s - loss: 0.0112 - acc: 0.9972
+Epoch 41/90
+ - 12s - loss: 0.0033 - acc: 1.0000
+Epoch 42/90
+ - 12s - loss: 0.0028 - acc: 1.0000
+Epoch 43/90
+ - 12s - loss: 0.0026 - acc: 1.0000
+Epoch 44/90
+ - 12s - loss: 9.9846e-04 - acc: 1.0000
+Epoch 45/90
+ - 12s - loss: 0.0016 - acc: 1.0000
+Epoch 46/90
+ - 12s - loss: 0.0027 - acc: 1.0000
+Epoch 47/90
+ - 12s - loss: 0.0216 - acc: 0.9972
+Epoch 48/90
+ - 12s - loss: 0.0627 - acc: 0.9917
+Epoch 49/90
+ - 12s - loss: 0.1152 - acc: 0.9741
+Epoch 50/90
+ - 12s - loss: 0.1129 - acc: 0.9685
+Epoch 51/90
+ - 12s - loss: 0.0714 - acc: 0.9722
+Epoch 52/90
+ - 12s - loss: 0.2316 - acc: 0.9435
+Epoch 53/90
+ - 12s - loss: 0.4571 - acc: 0.8731
+Epoch 54/90
+ - 12s - loss: 0.2141 - acc: 0.9278
+Epoch 55/90
+ - 12s - loss: 0.0728 - acc: 0.9815
+Epoch 56/90
+ - 12s - loss: 0.0351 - acc: 0.9917
+Epoch 57/90
+ - 12s - loss: 0.0172 - acc: 0.9944
+Epoch 58/90
+ - 12s - loss: 0.0527 - acc: 0.9870
+Epoch 59/90
+ - 12s - loss: 0.2732 - acc: 0.9250
+Epoch 60/90
+ - 12s - loss: 0.1786 - acc: 0.9407
+Epoch 61/90
+ - 12s - loss: 0.1051 - acc: 0.9639
+Epoch 62/90
+ - 12s - loss: 0.0304 - acc: 0.9898
+Epoch 63/90
+ - 12s - loss: 0.0189 - acc: 0.9944
+Epoch 64/90
+ - 12s - loss: 0.0276 - acc: 0.9907
+Epoch 65/90
+ - 12s - loss: 0.0151 - acc: 0.9954
+Epoch 66/90
+ - 12s - loss: 0.1162 - acc: 0.9750
+Epoch 67/90
+ - 12s - loss: 0.0353 - acc: 0.9898
+Epoch 68/90
+ - 12s - loss: 0.0238 - acc: 0.9917
+Epoch 69/90
+ - 12s - loss: 0.0182 - acc: 0.9944
+Epoch 70/90
+ - 12s - loss: 0.0192 - acc: 0.9907
+Epoch 71/90
+ - 12s - loss: 0.0670 - acc: 0.9806
+Epoch 72/90
+ - 12s - loss: 0.0304 - acc: 0.9917
+Epoch 73/90
+ - 12s - loss: 0.0132 - acc: 0.9963
+Epoch 74/90
+ - 12s - loss: 0.5506 - acc: 0.8519
+Epoch 75/90
+ - 12s - loss: 0.5257 - acc: 0.8241
+Epoch 76/90
+ - 12s - loss: 0.1773 - acc: 0.9343
+Epoch 77/90
+ - 12s - loss: 0.0943 - acc: 0.9713
+Epoch 78/90
+ - 12s - loss: 0.0520 - acc: 0.9833
+Epoch 79/90
+ - 12s - loss: 0.0283 - acc: 0.9917
+Epoch 80/90
+ - 12s - loss: 0.0490 - acc: 0.9861
+Epoch 81/90
+ - 12s - loss: 0.0787 - acc: 0.9806
+Epoch 82/90
+ - 12s - loss: 0.0119 - acc: 0.9972
+Epoch 83/90
+ - 12s - loss: 0.0097 - acc: 0.9963
+Epoch 84/90
+ - 12s - loss: 0.0047 - acc: 0.9991
+Epoch 85/90
+ - 12s - loss: 0.0222 - acc: 0.9972
+Epoch 86/90
+ - 12s - loss: 0.0312 - acc: 0.9898
+Epoch 87/90
+ - 12s - loss: 0.0157 - acc: 0.9944
+Epoch 88/90
+ - 12s - loss: 0.0313 - acc: 0.9935
+Epoch 89/90
+ - 12s - loss: 0.0335 - acc: 0.9944
+Epoch 90/90
+ - 12s - loss: 0.0785 - acc: 0.9731
+1202 seconds
+Thu Nov 30 21:05:01 2017
+
+ 32/120 [=======>......................] - ETA: 0s
+ 64/120 [===============>..............] - ETA: 0s
+ 96/120 [=======================>......] - ETA: 0s
+120/120 [==============================] - 0s 2ms/step
+Using TensorFlow backend.
+Loss = 0.699335774779
+Test Accuracy = 0.841666662693
+
+

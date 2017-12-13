@@ -1,0 +1,324 @@
+Using TensorFlow backend.
+Model loaded.
+Start of iteration 0
+Current loss value: 2.49676e+09
+Image saved as images/paint3_at_iteration_0.png
+Iteration 0 completed in 21s
+
+Start of iteration 1
+Current loss value: 1.57554e+09
+
+Start of iteration 2
+Current loss value: 1.3042e+09
+
+Start of iteration 3
+Current loss value: 1.14548e+09
+
+Start of iteration 4
+Current loss value: 1.04224e+09
+
+Start of iteration 5
+Current loss value: 9.72532e+08
+
+Start of iteration 6
+Current loss value: 9.2201e+08
+
+Start of iteration 7
+Current loss value: 8.77024e+08
+
+Start of iteration 8
+Current loss value: 8.46562e+08
+
+Start of iteration 9
+Current loss value: 8.16501e+08
+
+Start of iteration 10
+Current loss value: 7.93564e+08
+Image saved as images/paint3_at_iteration_10.png
+Iteration 10 completed in 18s
+
+Start of iteration 11
+Current loss value: 7.76885e+08
+
+Start of iteration 12
+Current loss value: 7.601e+08
+
+Start of iteration 13
+Current loss value: 7.46024e+08
+
+Start of iteration 14
+Current loss value: 7.33335e+08
+
+Start of iteration 15
+Current loss value: 7.21933e+08
+
+Start of iteration 16
+Current loss value: 7.11138e+08
+
+Start of iteration 17
+Current loss value: 7.01741e+08
+
+Start of iteration 18
+Current loss value: 6.92826e+08
+
+Start of iteration 19
+Current loss value: 6.86057e+08
+
+Start of iteration 20
+Current loss value: 6.79034e+08
+Image saved as images/paint3_at_iteration_20.png
+Iteration 20 completed in 18s
+
+Start of iteration 21
+Current loss value: 6.71424e+08
+
+Start of iteration 22
+Current loss value: 6.65116e+08
+
+Start of iteration 23
+Current loss value: 6.59591e+08
+
+Start of iteration 24
+Current loss value: 6.5435e+08
+
+Start of iteration 25
+Current loss value: 6.48577e+08
+
+Start of iteration 26
+Current loss value: 6.43113e+08
+
+Start of iteration 27
+Current loss value: 6.37971e+08
+
+Start of iteration 28
+Current loss value: 6.338e+08
+
+Start of iteration 29
+Current loss value: 6.2942e+08
+
+Start of iteration 30
+Current loss value: 6.25282e+08
+Image saved as images/paint3_at_iteration_30.png
+Iteration 30 completed in 18s
+
+Start of iteration 31
+Current loss value: 6.21473e+08
+
+Start of iteration 32
+Current loss value: 6.17007e+08
+
+Start of iteration 33
+Current loss value: 6.13993e+08
+
+Start of iteration 34
+Current loss value: 6.10719e+08
+
+Start of iteration 35
+Current loss value: 6.07809e+08
+
+Start of iteration 36
+Current loss value: 6.0501e+08
+
+Start of iteration 37
+Current loss value: 6.02608e+08
+
+Start of iteration 38
+Current loss value: 5.9997e+08
+
+Start of iteration 39
+Current loss value: 5.9696e+08
+
+Start of iteration 40
+Current loss value: 5.94639e+08
+Image saved as images/paint3_at_iteration_40.png
+Iteration 40 completed in 18s
+
+Start of iteration 41
+Current loss value: 5.92584e+08
+
+Start of iteration 42
+Current loss value: 5.90387e+08
+
+Start of iteration 43
+Current loss value: 5.88256e+08
+
+Start of iteration 44
+Current loss value: 5.86135e+08
+
+Start of iteration 45
+Current loss value: 5.83913e+08
+
+Start of iteration 46
+Current loss value: 5.82038e+08
+
+Start of iteration 47
+Current loss value: 5.80262e+08
+
+Start of iteration 48
+Current loss value: 5.78583e+08
+
+Start of iteration 49
+Current loss value: 5.77024e+08
+
+Start of iteration 50
+Current loss value: 5.75402e+08
+Image saved as images/paint3_at_iteration_50.png
+Iteration 50 completed in 18s
+
+Start of iteration 51
+Current loss value: 5.73817e+08
+
+Start of iteration 52
+Current loss value: 5.72114e+08
+
+Start of iteration 53
+Current loss value: 5.70342e+08
+
+Start of iteration 54
+Current loss value: 5.68459e+08
+
+Start of iteration 55
+Current loss value: 5.66817e+08
+
+Start of iteration 56
+Current loss value: 5.65678e+08
+
+Start of iteration 57
+Current loss value: 5.64217e+08
+
+Start of iteration 58
+Current loss value: 5.62943e+08
+
+Start of iteration 59
+Current loss value: 5.61287e+08
+
+Start of iteration 60
+Current loss value: 5.59808e+08
+Image saved as images/paint3_at_iteration_60.png
+Iteration 60 completed in 18s
+
+Start of iteration 61
+Current loss value: 5.58695e+08
+
+Start of iteration 62
+Current loss value: 5.57527e+08
+
+Start of iteration 63
+Current loss value: 5.56419e+08
+
+Start of iteration 64
+Current loss value: 5.55379e+08
+
+Start of iteration 65
+Current loss value: 5.54382e+08
+
+Start of iteration 66
+Current loss value: 5.5348e+08
+
+Start of iteration 67
+Current loss value: 5.52591e+08
+
+Start of iteration 68
+Current loss value: 5.51541e+08
+
+Start of iteration 69
+Current loss value: 5.50666e+08
+
+Start of iteration 70
+Current loss value: 5.4986e+08
+Image saved as images/paint3_at_iteration_70.png
+Iteration 70 completed in 18s
+
+Start of iteration 71
+Current loss value: 5.49065e+08
+
+Start of iteration 72
+Current loss value: 5.48161e+08
+
+Start of iteration 73
+Current loss value: 5.47362e+08
+
+Start of iteration 74
+Current loss value: 5.46503e+08
+
+Start of iteration 75
+Current loss value: 5.45654e+08
+
+Start of iteration 76
+Current loss value: 5.44826e+08
+
+Start of iteration 77
+Current loss value: 5.44081e+08
+
+Start of iteration 78
+Current loss value: 5.43346e+08
+
+Start of iteration 79
+Current loss value: 5.42522e+08
+
+Start of iteration 80
+Current loss value: 5.41808e+08
+Image saved as images/paint3_at_iteration_80.png
+Iteration 80 completed in 19s
+
+Start of iteration 81
+Current loss value: 5.41179e+08
+
+Start of iteration 82
+Current loss value: 5.40551e+08
+
+Start of iteration 83
+Current loss value: 5.3985e+08
+
+Start of iteration 84
+Current loss value: 5.39229e+08
+
+Start of iteration 85
+Current loss value: 5.3862e+08
+
+Start of iteration 86
+Current loss value: 5.38002e+08
+
+Start of iteration 87
+Current loss value: 5.37319e+08
+
+Start of iteration 88
+Current loss value: 5.36648e+08
+
+Start of iteration 89
+Current loss value: 5.35835e+08
+
+Start of iteration 90
+Current loss value: 5.34955e+08
+Image saved as images/paint3_at_iteration_90.png
+Iteration 90 completed in 18s
+
+Start of iteration 91
+Current loss value: 5.34356e+08
+
+Start of iteration 92
+Current loss value: 5.33795e+08
+
+Start of iteration 93
+Current loss value: 5.33217e+08
+
+Start of iteration 94
+Current loss value: 5.32669e+08
+
+Start of iteration 95
+Current loss value: 5.32145e+08
+
+Start of iteration 96
+Current loss value: 5.31643e+08
+
+Start of iteration 97
+Current loss value: 5.31163e+08
+
+Start of iteration 98
+Current loss value: 5.30714e+08
+
+Start of iteration 99
+Current loss value: 5.30263e+08
+Image saved as images/paint3_at_iteration_99.png
+Iteration 99 completed in 18s
+

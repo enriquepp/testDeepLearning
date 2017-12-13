@@ -1,0 +1,42 @@
+Using TensorFlow backend.
+Model loaded.
+Start of iteration 0
+Current loss value: 8.04635e+08
+Image saved as epp300_at_iteration_0.png
+Iteration 0 completed in 21s
+Start of iteration 1
+Current loss value: 4.57454e+08
+Image saved as epp300_at_iteration_1.png
+Iteration 1 completed in 18s
+Start of iteration 2
+Current loss value: 3.41815e+08
+Image saved as epp300_at_iteration_2.png
+Iteration 2 completed in 18s
+Start of iteration 3
+Current loss value: 2.82756e+08
+Image saved as epp300_at_iteration_3.png
+Iteration 3 completed in 18s
+Start of iteration 4
+Current loss value: 2.51474e+08
+Image saved as epp300_at_iteration_4.png
+Iteration 4 completed in 18s
+Start of iteration 5
+Current loss value: 2.32152e+08
+Image saved as epp300_at_iteration_5.png
+Iteration 5 completed in 18s
+Start of iteration 6
+Current loss value: 2.1985e+08
+Image saved as epp300_at_iteration_6.png
+Iteration 6 completed in 18s
+Start of iteration 7
+Current loss value: 2.0836e+08
+Image saved as epp300_at_iteration_7.png
+Iteration 7 completed in 18s
+Start of iteration 8
+Current loss value: 1.99854e+08
+Image saved as epp300_at_iteration_8.png
+Iteration 8 completed in 18s
+Start of iteration 9
+Current loss value: 1.93665e+08
+Image saved as epp300_at_iteration_9.png
+Iteration 9 completed in 18s
